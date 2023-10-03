@@ -1,5 +1,5 @@
 # WCEBleedGenChallenge
-Notes:
+<b>Notes:</b>
 - Our github code is made of two folders "Classification" and "Detection".
 - All the model weight and plots for classification are saved in sub folder "outputs" in "Classification" folder.
 - All the model weight and plots for detection are saved in sub folder "outputs" in Detection folder.
