@@ -4,7 +4,9 @@
 - All the codes are written in python.
 - All the model weight and plots for classification are saved in the sub folder "outputs" which is in the "Classification" folder.
 - All the model weight and plots for detection are saved in the sub folder at "Detection\YOLO\yolov5\runs\train\exp" which is in the Detection folder of YOLO.
-- The Excel sheet containing the image IDs and predicted class labels of testing dataset 1 and 2 is saved as <b>"Results.xlsx"</b> in the "Detection" folder.  
+- The Excel sheet containing the image IDs and predicted class labels of testing dataset 1 and 2 is saved as <b>"Results.xlsx"</b> in the "Detection" folder.
+- The datasets are in the folder "input" for the classification, and in the folder "data" (Detection\YOLO\data) for the detection.
+- You used <b>split.py</b> script to split the training dataset into 80% for training set and 20% for validation set.
 
   <br /> 
 <b>1• A table of the achieved evaluation metrics of validation dataset</b>
