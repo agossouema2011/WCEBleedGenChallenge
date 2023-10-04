@@ -8,7 +8,7 @@
 - All the model weight and plots for classification are saved in the sub folder "outputs" which is in the "Classification" folder.
 - All the model weight and plots for detection are saved in the sub folder at "Detection\YOLO\yolov5\runs\train\exp" which is in the Detection folder of YOLO.
 - The datasets are in the folder "input" for the classification, and in the folder "data" (Detection\YOLO\data) for the detection.
-- You used <b>split.py</b> script to split the training dataset into 80% for training set and 20% for validation set.
+- You used <b>split.py</b> script to split the training dataset into 80% for training set (1,048 images for Bleeding and 1,048 images for Non-Bleeding) and 20% for validation set (262 images for Bleeding and 262 images for Non-Bleeding). We can see that there is class balance.
 
   <br /> 
 <b>1• A table of the achieved evaluation metrics of validation dataset</b>
