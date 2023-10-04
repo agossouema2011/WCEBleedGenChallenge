@@ -7,11 +7,11 @@
   <br /> 
 <b>1• A table of the achieved evaluation metrics of validation dataset</b>
    <b>Classification: Accuracy, Recall, F1-Score </b><br />
-     ```
+   
                | Accuracy      | Recall        |  F1-Score  |
                | ------------- | ------------- | -----------|
                | Content Cell  | Content Cell  |            |
-     ```         
+          
   <br />
   
   <div align="center">
@@ -22,12 +22,12 @@
   <br />
    <b>Detection: Average Precision, Mean-Average Precision, Intersection over Union(IoU))</b>
    <br />
-    ```
+  
                | Accuracy Precision | Mean-Average Precision | Intersection over Union(IoU)|
                | -------------------| ---------------------- | ----------------------------|
                | Content Cell       | Content Cell           |                             |
 
-   ```
+
     <br />
   <div align="center">
           <a href="./">
