@@ -13,7 +13,7 @@
                | Content Cell  | Content Cell  |            |
               
         <br />
-       <div align="center">
+  <div align="center">
           <a href="./">
               <img src="figures/metricsClassification.png" width="75%"/>
           </a>
@@ -25,7 +25,7 @@
                | Content Cell       | Content Cell           |                             |
 
 
-     <div align="center">
+  <div align="center">
           <a href="./">
               <img src="figures/metricsDetection.png" width="100%"/>
           </a>
@@ -33,7 +33,7 @@
         <br />
 <b>2• Screenshots/pictures of any 10 best images selected from validation dataset showing its classification and detection (bounding box with confidence level)</b>
 
-      <div align="center">
+    <div align="center">
           <a href="./">
               <img src="figures/10bestValClassDetection.png" width="75%"/>
           </a>
