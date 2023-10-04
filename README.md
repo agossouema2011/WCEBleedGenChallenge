@@ -2,7 +2,8 @@
 <b>Notes:</b>
 - Our github code is composed of two folders "Classification" and "Detection" containing respectively the classification and detection codes.
 - All the codes are written in python.
-- For the classification we use a pretrained <b>ResNet152</b> and finetuned it on our dataset. We chosed <b>ResNet152</b> because it is more robust to error and achieve better performance on image classification. We used 3-k folds cross-validations and trained at 30 Epochs for each fold round.
+- For the classification we use a pretrained <b>ResNet152</b> and finetuned it on our dataset. We chosed <b>ResNet152</b> because it is more robust to error and achieves better performance on image classification. In addition <b>ResNet152</b> will suit even when the dataset increases and becomes bigger.
+- For the classification we used 3-k folds cross-validations and trained at 30 Epochs for each fold round.
 - For the detection, we used <b>YOLO7</b> which gives more performance.
 - All the model weight and plots for classification are saved in the sub folder "outputs" which is in the "Classification" folder.
 - All the model weight and plots for detection are saved in the sub folder at "Detection\YOLO\yolov5\runs\train\exp" which is in the Detection folder of YOLO.
