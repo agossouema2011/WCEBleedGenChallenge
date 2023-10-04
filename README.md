@@ -3,7 +3,8 @@
 - Our github code is composed of two folders "Classification" and "Detection" containing respectively the classification and detection codes.
 - All the codes are written in python.
 - All the model weight and plots for classification are saved in the sub folder "outputs" which is in the "Classification" folder.
-- All the model weight and plots for detection are saved in the sub folder "Detection\YOLO\yolov5\runs\train" in Detection folder of YOLO.
+- All the model weight and plots for detection are saved in the sub folder at "Detection\YOLO\yolov5\runs\train\exp" which is in the Detection folder of YOLO.
+- The Excel sheet containing the image IDs and predicted class labels of testing dataset 1 and 2 is saved as <b>"Results.xlsx"</b> in the "Detection" folder.  
 
   <br /> 
 <b>1• A table of the achieved evaluation metrics of validation dataset</b>
