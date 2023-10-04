@@ -7,12 +7,13 @@
   <br /> 
 <b>1• A table of the achieved evaluation metrics of validation dataset</b>
    <b>Classification: Accuracy, Recall, F1-Score </b><br />
-
+     ```
                | Accuracy      | Recall        |  F1-Score  |
                | ------------- | ------------- | -----------|
                | Content Cell  | Content Cell  |            |
-              
-        <br />
+     ```         
+  <br />
+  
   <div align="center">
           <a href="./">
               <img src="figures/metricsClassification.png" width="75%"/>
@@ -20,11 +21,14 @@
       </div>
   <br />
    <b>Detection: Average Precision, Mean-Average Precision, Intersection over Union(IoU))</b>
+   <br />
+    ```
                | Accuracy Precision | Mean-Average Precision | Intersection over Union(IoU)|
                | -------------------| ---------------------- | ----------------------------|
                | Content Cell       | Content Cell           |                             |
 
-
+   ```
+    <br />
   <div align="center">
           <a href="./">
               <img src="figures/metricsDetection.png" width="100%"/>
@@ -32,7 +36,7 @@
       </div>
         <br />
 <b>2• Screenshots/pictures of any 10 best images selected from validation dataset showing its classification and detection (bounding box with confidence level)</b>
-
+ <br />
     <div align="center">
           <a href="./">
               <img src="figures/10bestValClassDetection.png" width="75%"/>
@@ -40,6 +44,7 @@
       </div>
   <br /> 
 <b>3• Screenshots/ pictures of achieved interpretability plot of any 10 best images selected from validation dataset</b>
+ <br />
          <div align="center">
           <a href="./">
               <img src="figures/10bestValInterpretabilityPlot.png" width="75%"/>
