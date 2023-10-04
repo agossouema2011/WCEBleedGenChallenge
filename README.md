@@ -28,7 +28,7 @@
                | Content Cell       | Content Cell           |                             |
 
 
-    <br />
+  <br />
   <div align="center">
           <a href="./">
               <img src="figures/metricsDetection.png" width="100%"/>
