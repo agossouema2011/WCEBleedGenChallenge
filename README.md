@@ -1,8 +1,9 @@
 # WCEBleedGenChallenge
 <b>Notes:</b>
-- Our github code is made of two folders "Classification" and "Detection".
-- All the model weight and plots for classification are saved in sub folder "outputs" in "Classification" folder.
-- All the model weight and plots for detection are saved in sub folder "outputs" in Detection folder.
+- Our github code is composed of two folders "Classification" and "Detection" containing respectively the classification and detection codes.
+- All the codes are written in python.
+- All the model weight and plots for classification are saved in the sub folder "outputs" which is in the "Classification" folder.
+- All the model weight and plots for detection are saved in the sub folder "Detection\YOLO\yolov5\runs\train" in Detection folder of YOLO.
 
   <br /> 
 <b>1• A table of the achieved evaluation metrics of validation dataset</b>
