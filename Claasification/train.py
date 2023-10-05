@@ -26,7 +26,7 @@ torch.backends.cudnn.benchmark = True
 # Construct the argument parser for the training: number of epoch, and learning rate.
 parser = argparse.ArgumentParser()
 parser.add_argument(
-    '-e', '--epochs', type=int, default=10,
+    '-e', '--epochs', type=int, default=25,
     help='Number of epochs to train our network for'
 )
 parser.add_argument(
