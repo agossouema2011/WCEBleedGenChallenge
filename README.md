@@ -16,7 +16,7 @@
 
                |   Accuracy    |    Recall     |  F1-Score  |
                | ------------- | ------------- | -----------|
-               |    99.66%     |    99.79%     |    99.67%  |
+               |    99.82%     |    99.85%     |    99.81%  |
           
   <br />
   We also include here a screenshot of the training metrics result.
