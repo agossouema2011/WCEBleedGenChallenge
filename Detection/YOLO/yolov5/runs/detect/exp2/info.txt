@@ -1,0 +1,1 @@
+This folder contains the images of 'TestDataset2' with the detected bounding boxes.
