@@ -29,9 +29,9 @@
    <b>Detection: Average Precision, Mean-Average Precision, Intersection over Union(IoU))</b>
    <br />
   
-               | Accuracy Precision | Mean-Average Precision | Intersection over Union(IoU)|
+               | Average Precision | Mean-Average Precision | Intersection over Union(IoU)|
                | -------------------| ---------------------- | ----------------------------|
-               | Content Cell       | Content Cell           |                             |
+               |         0.70       |         0.682          |             0.45            |
 
 
   <br />
