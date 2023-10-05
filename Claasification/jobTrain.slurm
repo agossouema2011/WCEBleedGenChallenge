@@ -27,6 +27,6 @@ source ../WCEbleedGen/venv/bin/activate
 module purge
 module load fosscuda/2018b
 
-python train.py --epochs 30
+python train.py --epochs 25
 
 uname -a
