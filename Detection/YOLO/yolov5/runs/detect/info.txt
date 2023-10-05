@@ -1,0 +1,1 @@
+Detection folders 'exp' are created here. They contain the images with the detected bounding box
