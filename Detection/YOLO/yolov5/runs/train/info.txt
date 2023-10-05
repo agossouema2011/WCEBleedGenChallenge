@@ -1,0 +1,1 @@
+Train folders 'exp' are created here during the training of the model. They contain plots and model weights
