@@ -1,0 +1,1563 @@
+we are running from this directory: /cluster/home/bidossea/PycharmProjects/ClassificationBleendingWCE\n
+ the name of the job is: testClassifier_WCE_Bleeding\n
+Th job ID is 18812643\n
+The job was run on these nodes: idun-06-03\n
+Number of nodes: 1\n
+We are using 10 cores\n
+We are using 10 cores per node\n
+Total of  cores\n
+Testing model
+  0%|          | 0/524 [00:00<?, ?it/s]  0%|          | 1/524 [00:00<07:42,  1.13it/s]  1%|          | 4/524 [00:01<01:46,  4.89it/s]  1%|▏         | 7/524 [00:01<01:00,  8.58it/s]  2%|▏         | 10/524 [00:01<00:42, 12.04it/s]  2%|▏         | 13/524 [00:01<00:34, 15.02it/s]  3%|▎         | 16/524 [00:01<00:29, 17.40it/s]  4%|▎         | 19/524 [00:01<00:26, 19.39it/s]  4%|▍         | 22/524 [00:01<00:23, 21.04it/s]  5%|▍         | 25/524 [00:01<00:22, 22.19it/s]  5%|▌         | 28/524 [00:01<00:21, 23.05it/s]  6%|▌         | 31/524 [00:02<00:20, 23.73it/s]  6%|▋         | 34/524 [00:02<00:20, 24.25it/s]  7%|▋         | 37/524 [00:02<00:19, 24.61it/s]  8%|▊         | 40/524 [00:02<00:19, 25.01it/s]  8%|▊         | 43/524 [00:02<00:19, 25.20it/s]  9%|▉         | 46/524 [00:02<00:19, 25.09it/s]  9%|▉         | 49/524 [00:02<00:18, 25.12it/s] 10%|▉         | 52/524 [00:02<00:18, 25.19it/s] 10%|█         | 55/524 [00:03<00:18, 25.04it/s] 11%|█         | 58/524 [00:03<00:18, 25.10it/s] 12%|█▏        | 61/524 [00:03<00:18, 24.97it/s] 12%|█▏        | 64/524 [00:03<00:18, 25.06it/s] 13%|█▎        | 67/524 [00:03<00:18, 24.94it/s] 13%|█▎        | 70/524 [00:03<00:18, 24.99it/s] 14%|█▍        | 73/524 [00:03<00:18, 24.96it/s] 15%|█▍        | 76/524 [00:03<00:18, 24.88it/s] 15%|█▌        | 79/524 [00:04<00:17, 25.03it/s] 16%|█▌        | 82/524 [00:04<00:17, 25.16it/s] 16%|█▌        | 85/524 [00:04<00:17, 25.19it/s] 17%|█▋        | 88/524 [00:04<00:17, 24.88it/s] 17%|█▋        | 91/524 [00:04<00:17, 24.92it/s] 18%|█▊        | 94/524 [00:04<00:17, 24.97it/s] 19%|█▊        | 97/524 [00:04<00:17, 24.44it/s] 19%|█▉        | 100/524 [00:04<00:17, 24.53it/s] 20%|█▉        | 103/524 [00:04<00:17, 24.49it/s] 20%|██        | 106/524 [00:05<00:16, 24.61it/s] 21%|██        | 109/524 [00:05<00:16, 24.73it/s] 21%|██▏       | 112/524 [00:05<00:16, 24.88it/s] 22%|██▏       | 115/524 [00:05<00:16, 24.99it/s] 23%|██▎       | 118/524 [00:05<00:16, 25.02it/s] 23%|██▎       | 121/524 [00:05<00:16, 25.00it/s] 24%|██▎       | 124/524 [00:05<00:15, 25.15it/s] 24%|██▍       | 127/524 [00:05<00:15, 25.10it/s] 25%|██▍       | 130/524 [00:06<00:15, 25.24it/s] 25%|██▌       | 133/524 [00:06<00:15, 25.27it/s] 26%|██▌       | 136/524 [00:06<00:15, 24.91it/s] 27%|██▋       | 139/524 [00:06<00:15, 24.83it/s] 27%|██▋       | 142/524 [00:06<00:15, 24.79it/s] 28%|██▊       | 145/524 [00:06<00:15, 24.68it/s] 28%|██▊       | 148/524 [00:06<00:15, 24.72it/s] 29%|██▉       | 151/524 [00:06<00:14, 24.90it/s] 29%|██▉       | 154/524 [00:07<00:14, 24.73it/s] 30%|██▉       | 157/524 [00:07<00:14, 24.68it/s] 31%|███       | 160/524 [00:07<00:14, 24.73it/s] 31%|███       | 163/524 [00:07<00:14, 24.76it/s] 32%|███▏      | 166/524 [00:07<00:14, 24.96it/s] 32%|███▏      | 169/524 [00:07<00:14, 24.88it/s] 33%|███▎      | 172/524 [00:07<00:14, 24.96it/s] 33%|███▎      | 175/524 [00:07<00:14, 24.92it/s] 34%|███▍      | 178/524 [00:07<00:13, 25.03it/s] 35%|███▍      | 181/524 [00:08<00:13, 25.11it/s] 35%|███▌      | 184/524 [00:08<00:13, 25.18it/s] 36%|███▌      | 187/524 [00:08<00:13, 25.16it/s] 36%|███▋      | 190/524 [00:08<00:13, 25.21it/s] 37%|███▋      | 193/524 [00:08<00:13, 25.41it/s] 37%|███▋      | 196/524 [00:08<00:12, 25.47it/s] 38%|███▊      | 199/524 [00:08<00:12, 25.67it/s] 39%|███▊      | 202/524 [00:08<00:12, 25.69it/s] 39%|███▉      | 205/524 [00:09<00:12, 25.84it/s] 40%|███▉      | 208/524 [00:09<00:12, 26.05it/s] 40%|████      | 211/524 [00:09<00:12, 25.73it/s] 41%|████      | 214/524 [00:09<00:11, 25.92it/s] 41%|████▏     | 217/524 [00:09<00:11, 25.87it/s] 42%|████▏     | 220/524 [00:09<00:11, 25.92it/s] 43%|████▎     | 223/524 [00:09<00:11, 25.90it/s] 43%|████▎     | 226/524 [00:09<00:11, 25.85it/s] 44%|████▎     | 229/524 [00:09<00:11, 25.91it/s] 44%|████▍     | 232/524 [00:10<00:11, 25.82it/s] 45%|████▍     | 235/524 [00:10<00:11, 25.86it/s] 45%|████▌     | 238/524 [00:10<00:11, 25.70it/s] 46%|████▌     | 241/524 [00:10<00:11, 25.63it/s] 47%|████▋     | 244/524 [00:10<00:10, 25.50it/s] 47%|████▋     | 247/524 [00:10<00:11, 25.17it/s] 48%|████▊     | 250/524 [00:10<00:11, 24.86it/s] 48%|████▊     | 253/524 [00:10<00:10, 24.85it/s] 49%|████▉     | 256/524 [00:11<00:10, 24.86it/s] 49%|████▉     | 259/524 [00:11<00:10, 24.97it/s] 50%|█████     | 262/524 [00:11<00:10, 25.04it/s] 51%|█████     | 265/524 [00:11<00:10, 25.09it/s] 51%|█████     | 268/524 [00:11<00:10, 25.25it/s] 52%|█████▏    | 271/524 [00:11<00:10, 25.22it/s] 52%|█████▏    | 274/524 [00:11<00:09, 25.40it/s] 53%|█████▎    | 277/524 [00:11<00:09, 25.45it/s] 53%|█████▎    | 280/524 [00:11<00:09, 25.61it/s] 54%|█████▍    | 283/524 [00:12<00:09, 25.53it/s] 55%|█████▍    | 286/524 [00:12<00:09, 25.44it/s] 55%|█████▌    | 289/524 [00:12<00:09, 25.34it/s] 56%|█████▌    | 292/524 [00:12<00:09, 25.34it/s] 56%|█████▋    | 295/524 [00:12<00:09, 25.14it/s] 57%|█████▋    | 298/524 [00:12<00:08, 25.33it/s] 57%|█████▋    | 301/524 [00:12<00:08, 25.38it/s] 58%|█████▊    | 304/524 [00:12<00:08, 25.45it/s] 59%|█████▊    | 307/524 [00:13<00:08, 25.40it/s] 59%|█████▉    | 310/524 [00:13<00:08, 25.54it/s] 60%|█████▉    | 313/524 [00:13<00:08, 25.42it/s] 60%|██████    | 316/524 [00:13<00:08, 25.39it/s] 61%|██████    | 319/524 [00:13<00:08, 25.47it/s] 61%|██████▏   | 322/524 [00:13<00:07, 25.39it/s] 62%|██████▏   | 325/524 [00:13<00:07, 25.41it/s] 63%|██████▎   | 328/524 [00:13<00:07, 25.41it/s] 63%|██████▎   | 331/524 [00:13<00:07, 25.50it/s] 64%|██████▎   | 334/524 [00:14<00:07, 25.52it/s] 64%|██████▍   | 337/524 [00:14<00:07, 25.52it/s] 65%|██████▍   | 340/524 [00:14<00:07, 25.41it/s] 65%|██████▌   | 343/524 [00:14<00:07, 25.27it/s] 66%|██████▌   | 346/524 [00:14<00:07, 25.15it/s] 67%|██████▋   | 349/524 [00:14<00:07, 24.55it/s] 67%|██████▋   | 352/524 [00:14<00:07, 24.54it/s] 68%|██████▊   | 355/524 [00:14<00:06, 24.60it/s] 68%|██████▊   | 358/524 [00:15<00:06, 24.71it/s] 69%|██████▉   | 361/524 [00:15<00:06, 24.79it/s] 69%|██████▉   | 364/524 [00:15<00:06, 24.95it/s] 70%|███████   | 367/524 [00:15<00:06, 24.94it/s] 71%|███████   | 370/524 [00:15<00:06, 25.11it/s] 71%|███████   | 373/524 [00:15<00:06, 24.98it/s] 72%|███████▏  | 376/524 [00:15<00:05, 25.11it/s] 72%|███████▏  | 379/524 [00:15<00:05, 25.27it/s] 73%|███████▎  | 382/524 [00:16<00:05, 25.39it/s] 73%|███████▎  | 385/524 [00:16<00:05, 25.52it/s] 74%|███████▍  | 388/524 [00:16<00:05, 25.56it/s] 75%|███████▍  | 391/524 [00:16<00:05, 25.58it/s] 75%|███████▌  | 394/524 [00:16<00:05, 25.52it/s] 76%|███████▌  | 397/524 [00:16<00:05, 25.36it/s] 76%|███████▋  | 400/524 [00:16<00:04, 25.09it/s] 77%|███████▋  | 403/524 [00:16<00:04, 25.37it/s] 77%|███████▋  | 406/524 [00:16<00:04, 25.48it/s] 78%|███████▊  | 409/524 [00:17<00:04, 24.84it/s] 79%|███████▊  | 412/524 [00:17<00:04, 24.43it/s] 79%|███████▉  | 415/524 [00:17<00:04, 24.66it/s] 80%|███████▉  | 418/524 [00:17<00:04, 24.90it/s] 80%|████████  | 421/524 [00:17<00:04, 25.10it/s] 81%|████████  | 424/524 [00:17<00:03, 25.21it/s] 81%|████████▏ | 427/524 [00:17<00:03, 25.22it/s] 82%|████████▏ | 430/524 [00:17<00:03, 25.38it/s] 83%|████████▎ | 433/524 [00:18<00:03, 25.41it/s] 83%|████████▎ | 436/524 [00:18<00:03, 25.59it/s] 84%|████████▍ | 439/524 [00:18<00:03, 25.56it/s] 84%|████████▍ | 442/524 [00:18<00:03, 25.69it/s] 85%|████████▍ | 445/524 [00:18<00:03, 25.66it/s] 85%|████████▌ | 448/524 [00:18<00:02, 25.81it/s] 86%|████████▌ | 451/524 [00:18<00:02, 25.75it/s] 87%|████████▋ | 454/524 [00:18<00:02, 25.74it/s] 87%|████████▋ | 457/524 [00:18<00:02, 25.77it/s] 88%|████████▊ | 460/524 [00:19<00:02, 25.67it/s] 88%|████████▊ | 463/524 [00:19<00:02, 25.61it/s] 89%|████████▉ | 466/524 [00:19<00:02, 25.73it/s] 90%|████████▉ | 469/524 [00:19<00:02, 25.84it/s] 90%|█████████ | 472/524 [00:19<00:02, 25.88it/s] 91%|█████████ | 475/524 [00:19<00:01, 25.80it/s] 91%|█████████ | 478/524 [00:19<00:01, 25.63it/s] 92%|█████████▏| 481/524 [00:19<00:01, 25.62it/s] 92%|█████████▏| 484/524 [00:20<00:01, 25.71it/s] 93%|█████████▎| 487/524 [00:20<00:01, 25.74it/s] 94%|█████████▎| 490/524 [00:20<00:01, 25.82it/s] 94%|█████████▍| 493/524 [00:20<00:01, 25.78it/s] 95%|█████████▍| 496/524 [00:20<00:01, 25.38it/s] 95%|█████████▌| 499/524 [00:20<00:00, 25.11it/s] 96%|█████████▌| 502/524 [00:20<00:00, 25.27it/s] 96%|█████████▋| 505/524 [00:20<00:00, 25.30it/s] 97%|█████████▋| 508/524 [00:20<00:00, 25.43it/s] 98%|█████████▊| 511/524 [00:21<00:00, 25.51it/s] 98%|█████████▊| 514/524 [00:21<00:00, 25.74it/s] 99%|█████████▊| 517/524 [00:21<00:00, 25.93it/s] 99%|█████████▉| 520/524 [00:21<00:00, 26.19it/s]100%|█████████▉| 523/524 [00:21<00:00, 26.47it/s]100%|██████████| 524/524 [00:21<00:00, 24.22it/s]
+Test accuracy on Validation Dataset: 99.618%, Recall: 1.000, f1score: 1.000
+
+
+--------------------------------------CLASSIFICATION RESULTS ON TESTDATASET and save the result in an excel file -----------------------
+
+Test instances: 515
+-------------------------------------------------------------
+input/Test/TestDataset2/A0254.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0220.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0080.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0411.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0310.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0139.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0550.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0512.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0094.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0538.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0091.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0509.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0146.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0407.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0517.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0430.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0343.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0295.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0054.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0561.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0241.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0475.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0352.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0197.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0277.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0082.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0157.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0074.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0421.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0417.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0542.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0412.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0218.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0282.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0133.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0195.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0235.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0346.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0330.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0333.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0265.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0506.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0244.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0224.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0453.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0465.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0225.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0179.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0564.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0503.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0348.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0102.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0357.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0383.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0216.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0554.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0317.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0160.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0302.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0522.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0288.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0075.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0484.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0425.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0527.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0061.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0246.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0413.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0440.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0269.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0510.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0529.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0436.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0196.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0117.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0137.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0489.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0392.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0358.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0185.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0162.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0481.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0458.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0300.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0240.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0397.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0063.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0448.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0534.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0379.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0275.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0168.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0111.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0474.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0439.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0376.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0364.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0349.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0487.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0312.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0543.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0060.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0398.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0505.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0140.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0400.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0373.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0062.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0422.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0446.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0165.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0396.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0340.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0496.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0301.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0531.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0415.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0535.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0131.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0236.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0556.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0500.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0230.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0118.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0217.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0526.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0536.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0152.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0368.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0514.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0151.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0169.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0473.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0332.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0190.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0191.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0290.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0518.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0124.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0419.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0342.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0221.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0262.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0177.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0525.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0324.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0541.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0260.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0252.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0088.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0359.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0402.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0056.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0560.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0498.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0486.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0337.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0107.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0163.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0384.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0070.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0362.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0520.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0307.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0360.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0214.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0223.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0202.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0071.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0129.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0478.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0322.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0097.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0066.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0294.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0371.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0123.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0164.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0451.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0110.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0471.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0183.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0482.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0242.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0395.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0148.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0136.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0192.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0385.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0253.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0321.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0524.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0134.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0203.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0548.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0469.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0211.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0174.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0399.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0462.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0329.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0306.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0147.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0418.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0142.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0226.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0499.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0188.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0511.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0537.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0204.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0051.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0319.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0159.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0461.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0084.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0092.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0258.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0229.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0115.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0266.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0523.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0390.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0382.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0166.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0470.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0405.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0095.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0078.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0208.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0401.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0316.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0347.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0492.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0327.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0341.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0105.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0353.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0394.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0532.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0488.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0304.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0069.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0318.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0454.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0344.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0198.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0087.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0428.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0335.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0443.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0427.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0320.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0299.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0562.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0200.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0445.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0153.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0378.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0106.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0081.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0449.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0434.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0452.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0100.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0103.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0055.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0267.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0199.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0233.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0480.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0268.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0228.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0099.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0119.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0472.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0291.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0127.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0404.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0219.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0389.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0077.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0455.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0050.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0435.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0144.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0339.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0403.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0101.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0161.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0504.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0158.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0283.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0350.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0098.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0065.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0388.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0251.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0122.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0309.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0172.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0126.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0296.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0381.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0145.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0444.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0135.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0182.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0206.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0170.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0519.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0558.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0259.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0261.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0272.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0507.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0213.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0426.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0366.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0351.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0516.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0096.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0533.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0150.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0237.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0175.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0073.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0432.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0553.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0497.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0293.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0374.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0485.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0305.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0247.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0549.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0460.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0067.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0463.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0156.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0276.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0141.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0393.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0232.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0181.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0068.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0345.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0563.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0109.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0466.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0231.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0409.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0186.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0423.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0540.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0441.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0289.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0273.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0459.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0121.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0372.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0264.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0180.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0279.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0234.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0356.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0243.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0408.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0256.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0053.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0271.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0238.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0464.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0380.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0410.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0416.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0143.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0108.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0215.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0187.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0292.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0120.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0205.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0354.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0079.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0331.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0326.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0286.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0125.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0222.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0528.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0245.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0414.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0323.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0387.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0176.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0287.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0249.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0270.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0194.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0336.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0113.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0227.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0189.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0521.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0367.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0201.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0456.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0184.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0495.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0083.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0442.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0501.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0547.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0248.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0355.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0494.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0490.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0138.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0130.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0193.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0155.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0491.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0128.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0502.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0468.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0303.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0132.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0420.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0559.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0539.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0557.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0058.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0093.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0338.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0280.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0429.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0104.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0209.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0090.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0545.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0281.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0086.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0298.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0483.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0467.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0431.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0375.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0255.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0178.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0508.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0057.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0334.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0173.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0263.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0085.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0406.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0391.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0154.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0315.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0059.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0555.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0386.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0363.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0308.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0297.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0274.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0112.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0257.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0450.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0314.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0089.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0513.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0424.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0278.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0479.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0212.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0457.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0064.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0370.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0207.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0114.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0149.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0551.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0438.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0072.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0076.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0433.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0377.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0167.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0437.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0116.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0328.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0250.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0365.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0447.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0239.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0311.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0476.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0325.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0544.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0552.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0369.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0284.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0361.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0285.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0052.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0530.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0493.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0171.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0477.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0546.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0313.png
+Classes: Non-Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0210.png
+Classes: Bleeding
+-------------------------------------------------------------
+input/Test/TestDataset2/A0515.png
+Classes: Bleeding
+-------------------------------------------------------------
+Linux idun-06-03 4.18.0-425.3.1.el8.x86_64 #1 SMP Wed Nov 9 20:13:27 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
