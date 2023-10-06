@@ -1,0 +1,33 @@
+we are running from this directory: /cluster/home/bidossea/PycharmProjects/ClassificationBleendingWCE\n
+ the name of the job is: interpretability_WCE_Bleeding\n
+Th job ID is 18813040\n
+The job was run on these nodes: idun-06-08\n
+Number of nodes: 1\n
+We are using 10 cores\n
+We are using 10 cores per node\n
+Total of  cores\n
+Image shape: torch.Size([1, 3, 224, 224])
+  0%|          | 0/1000 [00:00<?, ?it/s]  1%|          | 9/1000 [00:00<00:03, 327.88it/s]
+Traceback (most recent call last):
+  File "interpretability.py", line 105, in <module>
+    explanation = explainer.explain_instance(input_image_numpy, classifier_fn, top_labels=5, num_samples=1000)
+  File "/cluster/home/bidossea/PycharmProjects/FasterRCNN/venv/lib64/python3.6/site-packages/lime/lime_image.py", line 200, in explain_instance
+    batch_size=batch_size)
+  File "/cluster/home/bidossea/PycharmProjects/FasterRCNN/venv/lib64/python3.6/site-packages/lime/lime_image.py", line 261, in data_labels
+    preds = classifier_fn(np.array(imgs))
+  File "interpretability.py", line 67, in classifier_fn
+    outputs = model (torch_image)
+  File "/cluster/home/bidossea/PycharmProjects/FasterRCNN/venv/lib64/python3.6/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/cluster/home/bidossea/PycharmProjects/FasterRCNN/venv/lib64/python3.6/site-packages/torchvision/models/resnet.py", line 220, in forward
+    return self._forward_impl(x)
+  File "/cluster/home/bidossea/PycharmProjects/FasterRCNN/venv/lib64/python3.6/site-packages/torchvision/models/resnet.py", line 203, in _forward_impl
+    x = self.conv1(x)
+  File "/cluster/home/bidossea/PycharmProjects/FasterRCNN/venv/lib64/python3.6/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/cluster/home/bidossea/PycharmProjects/FasterRCNN/venv/lib64/python3.6/site-packages/torch/nn/modules/conv.py", line 446, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/cluster/home/bidossea/PycharmProjects/FasterRCNN/venv/lib64/python3.6/site-packages/torch/nn/modules/conv.py", line 443, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size [64, 3, 7, 7], expected input[10, 224, 224, 3] to have 3 channels, but got 224 channels instead
+Linux idun-06-08 4.18.0-425.3.1.el8.x86_64 #1 SMP Wed Nov 9 20:13:27 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux

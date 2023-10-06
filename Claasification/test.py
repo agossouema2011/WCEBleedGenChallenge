@@ -30,7 +30,7 @@ TEST_DIR = os.path.join('input', 'Validation')
 BATCH_SIZE = 1
 DEVICE = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 device=DEVICE
-IMAGE_RESIZE = 360
+IMAGE_RESIZE = 224
 NUM_WORKERS = 4 # to not occupy the full capacity of your device, it is recommended to set numworkers
 CLASS_NAMES = ['Bleeding', 'Non-Bleeding']
 

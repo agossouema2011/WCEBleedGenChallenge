@@ -7,8 +7,8 @@
 #SBATCH --ntasks-per-node=10
 
 #SBATCH --mem=12000
-#SBATCH --job-name="trainClassifier_WCE_Bleeding"
-#SBATCH --output=Train_resultPrint.out
+#SBATCH --job-name="interpretability_WCE_Bleeding"
+#SBATCH --output=interpretability.out
 
 #SBATCH --mail-type=ALL
 
@@ -27,6 +27,6 @@ source ../WCEbleedGen/venv/bin/activate
 module purge
 module load fosscuda/2018b
 
-python train.py --epochs 15
+python 	interpretability.py
 
 uname -a
