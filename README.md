@@ -3,7 +3,7 @@
 - Our github code is composed of two folders "Classification" and "Detection" containing respectively the classification and detection codes.
 - All the codes are written in python.
 - For the classification we used a pretrained <b>ResNet50</b> and finetuned it on our dataset. We chosed <b>ResNet50</b> because through the state-of-the art, it is more robust to error and achieves better performance on image classification for simpler dataset. 
-- For the classification we used 3-k folds cross-validations and trained at 30 Epochs for each fold round.
+- For the classification we used 3-k folds cross-validations to improve the training performance, and trained for 15 Epochs at each fold.
 - For the detection, we used <b>YOLO5</b> which gives more performance.
 - All the model weight and plots for classification are saved in the sub folder "outputs" which is in the "Classification" folder.
 - All the model weight and plots for detection are saved in the sub folder at "Detection\YOLO\yolov5\runs\train\exp" which is in the Detection folder of YOLO.
@@ -16,7 +16,7 @@
 
                |   Accuracy    |    Recall     |  F1-Score  |
                | ------------- | ------------- | -----------|
-               |    99.82%     |    99.85%     |    99.81%  |
+               |    99.57%     |    99.53%     |    99.58%  |
           
   <br />
   We also include here a screenshot of the training metrics result.
