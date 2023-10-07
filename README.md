@@ -79,14 +79,14 @@
 <b>5• Screenshots/ pictures of achieved interpretability plot of any 5 best images selected from testing dataset 1 and 2 separately</b>
            <br />  <b>We use "Lime" Interpretability plot in this project</b>
  <br />
-         <b>Dataset 1</b>
+         <b>Test Dataset 1</b>
                <div align="center">
                    <a href="figures/5bestTestDataset1InterpretabilityPlot.png">
                        <img src="figures/5bestTestDataset1InterpretabilityPlot.png" width="75%"/>
                    </a>
                </div>
               <br />
-           <b>Dataset 2</b> 
+           <b>Test Dataset 2</b> 
              <br />
                <div align="center">
                    <a href="figures/5bestTestDataset2InterpretabilityPlot.png">
