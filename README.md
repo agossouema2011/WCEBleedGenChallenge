@@ -10,7 +10,7 @@
 - The datasets are in the folder "input" for the classification, and in the folder "data" (Detection\YOLO\data) for the detection.
 - You used <b>split.py</b> script to split the training dataset into 80% for training set (1,048 images for Bleeding and 1,048 images for Non-Bleeding) and 20% for validation set (261 images for Bleeding and 261 images for Non-Bleeding). We can see that there is class balance.
 - Lime Interpretability plots for the images are saved in "Claasification/outputs"
-  <br /> 
+  <br />  <br /> 
 <b>1• A table of the achieved evaluation metrics of validation dataset</b>
    <b>Classification: Accuracy, Recall, F1-Score </b><br />
 
