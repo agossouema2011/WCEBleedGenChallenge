@@ -87,8 +87,7 @@
                </div>
               <br />
            <b>Dataset 2</b> 
-             <br /><b>We use "Lime" Interpretability plot in this project</b>
- <br />
+             <br />
                <div align="center">
                    <a href="./">
                        <img src="figures/5bestTestDataset2InterpretabilityPlot.png" width="75%"/>
