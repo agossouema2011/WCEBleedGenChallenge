@@ -9,7 +9,7 @@
 - All the model weight and plots for detection are saved in the sub folder at "Detection\YOLO\yolov5\runs\train\exp" which is in the Detection folder of YOLO.
 - The datasets are in the folder "input" for the classification, and in the folder "data" (Detection\YOLO\data) for the detection.
 - You used <b>split.py</b> script to split the training dataset into 80% for training set (1,048 images for Bleeding and 1,048 images for Non-Bleeding) and 20% for validation set (261 images for Bleeding and 261 images for Non-Bleeding). We can see that there is class balance.
-- Lime Interpretability plots for the images are saved in "Claasification/outputs"
+- Lime Interpretability plots for the images are saved in "Classification\outputs"
   <br />  <br /> 
 <b>1• A table of the achieved evaluation metrics of validation dataset</b>
    <b>Classification: Accuracy, Recall, F1-Score </b><br />
@@ -21,7 +21,7 @@
   <br />
   We also include here a screenshot of the training metrics result.
   <div align="center">
-          <a href="./">
+          <a href="figures/metricsClassification.png">
               <img src="figures/metricsClassification.png" width="75%"/>
           </a>
       </div>
@@ -36,7 +36,7 @@
 
   <br />
   <div align="center">
-          <a href="./">
+          <a href="figures/metricsDetection.png">
               <img src="figures/metricsDetection.png" width="100%"/>
           </a>
       </div>
@@ -44,7 +44,7 @@
 <b>2• Screenshots/pictures of any 10 best images selected from validation dataset showing its classification and detection (bounding box with confidence level)</b>
  <br />
     <div align="center">
-          <a href="./">
+          <a href="figures/10bestValClassDetection.png">
               <img src="figures/10bestValClassDetection.png" width="75%"/>
           </a>
       </div>
@@ -53,7 +53,7 @@
 <br/> <b>We use "Lime" Interpretability plot in this project</b>
  <br />
          <div align="center">
-          <a href="./">
+          <a href="figures/10bestValInterpretabilityPlot.png">
               <img src="figures/10bestValInterpretabilityPlot.png" width="75%"/>
           </a>
          </div>
@@ -64,14 +64,14 @@
 <br /> 
          <b>Dataset 1</b>
                <div align="center">
-                   <a href="./">
+                   <a href="figures/5bestTestDataset1ClassDetection.png">
                        <img src="figures/5bestTestDataset1ClassDetection.png" width="75%"/>
                    </a>
                </div>
               <br /> <br />
            <b>Dataset 2</b>
                <div align="center">
-                   <a href="./">
+                   <a href="figures/5bestTestDataset2ClassDetection.png">
                        <img src="figures/5bestTestDataset2ClassDetection.png" width="75%"/>
                    </a>
                </div>
@@ -81,7 +81,7 @@
  <br />
          <b>Dataset 1</b>
                <div align="center">
-                   <a href="./">
+                   <a href="figures/5bestTestDataset1InterpretabilityPlot.png">
                        <img src="figures/5bestTestDataset1InterpretabilityPlot.png" width="75%"/>
                    </a>
                </div>
@@ -89,7 +89,7 @@
            <b>Dataset 2</b> 
              <br />
                <div align="center">
-                   <a href="./">
+                   <a href="figures/5bestTestDataset2InterpretabilityPlot.png">
                        <img src="figures/5bestTestDataset2InterpretabilityPlot.png" width="75%"/>
                    </a>
                </div>
