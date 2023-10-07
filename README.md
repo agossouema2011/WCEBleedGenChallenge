@@ -50,6 +50,7 @@
       </div>
   <br /> 
 <b>3• Screenshots/ pictures of achieved interpretability plot of any 10 best images selected from validation dataset</b>
+<br/> <b>We use Lime Interpretability plot in this project</b>
  <br />
          <div align="center">
           <a href="./">
@@ -58,7 +59,9 @@
          </div>
 
  <br />
-<b>4• Screenshots/pictures of any 5 best images selected from testing dataset 1 and 2 separately showing its classification and detection (bounding box with confidence level)</b>  <br /> 
+<b>4• Screenshots/pictures of any 5 best images selected from testing dataset 1 and 2 separately showing its classification and detection (bounding box with confidence level)</b> 
+<br/> <b>We use Lime Interpretability plot in this project</b>
+<br /> 
          <b>Dataset 1</b>
                <div align="center">
                    <a href="./">
