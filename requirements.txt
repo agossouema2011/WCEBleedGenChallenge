@@ -1,0 +1,17 @@
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+torch
+torchvision
+matplotlib
+numpy
+opencv-python
+pandas
+scikit-learn
+ultralytics
+pyyaml
+tqdm
+lime
+swim-transformer-pytorch
+
+
