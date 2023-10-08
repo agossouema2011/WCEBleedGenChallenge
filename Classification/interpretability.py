@@ -96,7 +96,7 @@ if __name__ == '__main__':
                                                 num_features=5,
                                                 hide_rest=False)
    
-    # Visualize explanation
+    # Visualize explanation and save it
     the_name=Path(image_path).stem # get the name of the file
     plt.imshow(mark_boundaries(temp / 2 + 0.5, mask))
     plt.axis('off')
@@ -104,7 +104,7 @@ if __name__ == '__main__':
           fontsize=20, 
           color="green") 
     plt.show()
-    the_name="LimeTestDataset2"+the_name
+    the_name="LimeTestDataset2"+the_name # you can change "LimeTestDataset2"
     plt.savefig('outputs/'+the_name+'.png')
  
 
