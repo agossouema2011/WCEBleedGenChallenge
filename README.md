@@ -9,9 +9,9 @@
 - All the model weight and plots for detection are saved in the sub folder at "Detection\YOLO\yolov5\runs\train\exp" which is in the Detection folder of YOLO.
 - The datasets are in the folder "input" for the classification, and in the folder "data" (Detection\YOLO\data) for the detection.
 - To train the Detection model use:
-  <i> python yolov5/train.py --img 224 --batch 16 --epochs 300 --data dataset.yaml --weights yolov5s.pt</i>
+  <br/><i> python yolov5/train.py --img 224 --batch 16 --epochs 300 --data dataset.yaml --weights yolov5s.pt</i>
 - To Test on an image, use:
-  <i>python yolov5/detect.py --weights yolov5/runs/train/exp/weights/best.pt --conf-thres 0.4 --iou-thres 0.75 --source <i>imagelocation</i></i>
+  <br/><i>python yolov5/detect.py --weights yolov5/runs/train/exp/weights/best.pt --conf-thres 0.4 --iou-thres 0.75 --source <i>imagelocation</i></i>
   
 - You used <b>split.py</b> script to split the training dataset into 80% for training set (1,048 images for Bleeding and 1,048 images for Non-Bleeding) and 20% for validation set (261 images for Bleeding and 261 images for Non-Bleeding). We can see that there is class balance.
 - Lime Interpretability plots for the images are saved in "Classification\outputs"
