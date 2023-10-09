@@ -14,7 +14,7 @@
   <br/><i>python yolov5/detect.py --weights yolov5/runs/train/exp/weights/best.pt --conf-thres 0.4 --iou-thres 0.75 --source <i>imagelocation</i></i>
   
 - You used <b>split.py</b> script to split the training dataset into 80% for training set (1,048 images for Bleeding and 1,048 images for Non-Bleeding) and 20% for validation set (261 images for Bleeding and 261 images for Non-Bleeding). We can see that there is class balance.
-- CAMs (Class Activation Mapping) Interpretability plots for the images are saved in "Classification" folder and also in "Classification\outputs"
+- All the CAMs (Class Activation Mapping) Interpretability plots for the images are saved in "Classification\outputs"
   <br />  <br /> 
 <b>1• A table of the achieved evaluation metrics of validation dataset</b>
    <b>Classification: Accuracy, Recall, F1-Score </b><br />
