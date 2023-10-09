@@ -59,7 +59,7 @@
  <br />
          <div align="center">
           <a href="figures/10bestValInterpretabilityPlot.png">
-              <img src="figures/10bestValInterpretabilityPlot.png" width="75%"/>
+              <img src="figures/10bestValInterpretabilityPlo.png" width="75%"/>
           </a>
          </div>
 
@@ -87,7 +87,7 @@
          <b>Test Dataset 1</b>
                <div align="center">
                    <a href="figures/5bestTestDataset1InterpretabilityPlot.png">
-                       <img src="figures/5bestTestDataset1InterpretabilityPlot.png" width="75%"/>
+                       <img src="figures/5bestTestDataset1InterpretabilityPlo.png" width="75%"/>
                    </a>
                </div>
               <br />
@@ -95,7 +95,7 @@
              <br />
                <div align="center">
                    <a href="figures/5bestTestDataset2InterpretabilityPlot.png">
-                       <img src="figures/5bestTestDataset2InterpretabilityPlot.png" width="75%"/>
+                       <img src="figures/5bestTestDataset2InterpretabilityPlo.png" width="75%"/>
                    </a>
                </div>
             <br />
