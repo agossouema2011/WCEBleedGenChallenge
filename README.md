@@ -14,7 +14,7 @@
   <br/><i>python yolov5/detect.py --weights yolov5/runs/train/exp/weights/best.pt --conf-thres 0.4 --iou-thres 0.75 --source <i>imagelocation</i></i>
   
 - You used <b>split.py</b> script to split the training dataset into 80% for training set (1,048 images for Bleeding and 1,048 images for Non-Bleeding) and 20% for validation set (261 images for Bleeding and 261 images for Non-Bleeding). We can see that there is class balance.
-- Lime Interpretability plots for the images are saved in "Classification\outputs"
+- CAMs (Class Activation Mapping) Interpretability plots for the images are saved in "Classification\outputs"
   <br />  <br /> 
 <b>1• A table of the achieved evaluation metrics of validation dataset</b>
    <b>Classification: Accuracy, Recall, F1-Score </b><br />
@@ -55,7 +55,7 @@
       </div>
   <br /> 
 <b>3• Screenshots/ pictures of achieved interpretability plot of any 10 best images selected from validation dataset</b>
-<br/> <b>We use "Lime" Interpretability plot in this project</b>
+<br/> <b>We use CAMs (Class Activation Mapping) Interpretability in this project</b>
  <br />
          <div align="center">
           <a href="figures/10bestValInterpretabilityPlot.png">
@@ -65,7 +65,7 @@
 
  <br />
 <b>4• Screenshots/pictures of any 5 best images selected from testing dataset 1 and 2 separately showing its classification and detection (bounding box with confidence level)</b> 
-<br/> <b>We use "Lime" Interpretability plot in this project</b>
+<br/> <b>We use CAMs (Class Activation Mapping) Interpretability in this project</b>
 <br /> 
          <b>Dataset 1</b>
                <div align="center">
@@ -82,7 +82,7 @@
                </div>
             <br /> 
 <b>5• Screenshots/ pictures of achieved interpretability plot of any 5 best images selected from testing dataset 1 and 2 separately</b>
-           <br />  <b>We use "Lime" Interpretability plot in this project</b>
+           <br /> <b>We use CAMs (Class Activation Mapping) Interpretability in this project</b>
  <br />
          <b>Test Dataset 1</b>
                <div align="center">
