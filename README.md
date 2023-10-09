@@ -5,7 +5,8 @@
 - For the classification we used a pretrained <b>ResNet50</b> and finetuned it on our dataset. We chosed <b>ResNet50</b> because through the state-of-the art, it is more robust to error and achieves better performance on image classification for simpler dataset. 
 - For the classification we used 3-k folds cross-validations to improve the training performance, and trained for 15 Epochs at each fold.
 - For the detection, we used <b>YOLO5</b> which gives more performance.
-- All the model weight and plots for classification are saved in the sub folder "outputs" which is in the "Classification" folder.
+- All the plots for classification are saved in the sub folder "outputs" which is in the "Classification" folder.
+- We could not save the trained model weight for the classification on this github as the file size is 444 MB.
 - All the model weight and plots for detection are saved in the sub folder at "Detection\YOLO\yolov5\runs\train\exp" which is in the Detection folder of YOLO.
 - The datasets are in the folder "input" for the classification, and in the folder "data" (Detection\YOLO\data) for the detection.
 - To train the Detection model use:
