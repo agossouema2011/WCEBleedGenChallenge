@@ -20,7 +20,7 @@ from torchvision import transforms
 from PIL import Image
 from skimage.segmentation import mark_boundaries
 import matplotlib.pyplot as plt
-from swin_transformer_pytorch.swin_transformer import SwinTransformer
+#from swin_transformer_pytorch.swin_transformer import SwinTransformer
 
 #explainer = lime_image.LimeImageExplainer()
 
