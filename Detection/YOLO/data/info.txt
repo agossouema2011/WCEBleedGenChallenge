@@ -1,0 +1,6 @@
+The 'data' folder will contain your images dataset for the training.
+1- Create a folder and mane it 'images'.
+     In side 'images' create 'validation' and 'training' folders and copy and paste your validation images and training images in the two folders respectively.
+2- Create a folder and mane it 'labels'.
+     In side 'labels' create 'validation' and 'training' folders and copy and paste your validation labels files (.txt ) and training labels files (.txt) in the two folders respectively.
+     The format of these labels files should be a YOLO detection labels format.
