@@ -1,4 +1,5 @@
 # WCEBleedGenChallenge
+# The colorLab Team won the fourth consolation prize of the "AutoWCEBleedGenChallenge version 1".
 <b>Notes:</b>
 - Our github code is composed of two folders "Classification" and "Detection" containing respectively the classification and detection codes.
 - All the codes are written in python.
